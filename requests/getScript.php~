@@ -1,0 +1,12 @@
+<?php
+session_start();
+require_once("../config/generalOptions.php");
+
+$soriptsPath = "C:/RobotProgram/scripts/";
+$file = $_GET['scriptName'];
+if(preg_match("/^[a-zA-z1-9_\s-]*.lua$/", $file)){
+	readfile($soriptsPath.$file);
+}else{
+	echo("-error-");
+}
+?>

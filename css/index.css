@@ -1,0 +1,33 @@
+
+#main_area{
+    width: 100%;
+	margin-top: 200px;
+	text-align:center;
+	
+	border-width: 0px;
+	border-style: solid;
+	border-color: #555555;
+}
+#login_form{
+	margin: 0px auto;
+	width: 230px;
+	text-align:right;
+	
+	border-width: 0px;
+	border-style: solid;
+	border-color: #555555;
+}
+#login_input{
+	width: 150px;
+}
+#pass_input{
+	width: 150px;
+}
+#submit_button{
+	margin-right: 0px;
+}
+label{
+	text-align: right;
+	display: inline-block;
+	width: 75px;
+}

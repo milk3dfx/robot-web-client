@@ -1,0 +1,79 @@
+   #input_form{
+      width: 500px;
+      float: left;
+   }
+   #robot_scripts{
+      width: 200px;
+      float: left;
+   }
+   #work_area{
+      float: left;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #55555;
+   }
+   #script_storage{
+      width: 500px;
+      height: 600px;
+      overflow: auto;
+      
+      padding-left: 5px;
+   }
+   #script_edit_area1{
+
+   }
+   #script_text{
+      width: 500px;
+      height: 600px;
+   }
+   #script_dysplay_area{
+      visibility: hidden;
+      display: none;
+   }
+   .scriptNames{
+      width: 150px;
+      
+      cursor: pointer;
+      text-align:center;
+      
+      border-width: 1px;
+      border-style: solid;
+      border-color: #555555;
+      
+      margin-right: 0px;
+      margin-bottom: 4px;
+      
+      padding-left: 5px;
+
+	}
+    .scriptNames:hover
+   { 
+      color: red;
+   }
+   
+   .buttons
+   { 
+      width: 100px;
+      float: left;
+      cursor: pointer;
+      text-align: center;
+      
+      border-width: 1px;
+      border-style: solid;
+      border-color: #555555;
+      
+      margin: 1px;
+   }
+    .buttons:hover
+   { 
+      color: red;
+   }
+   
+   div{
+      border-width: 0px;
+      border-style:solid;
+      border-color: #555555;
+   }
+   h4{
+      margin: 4px;
+   }
