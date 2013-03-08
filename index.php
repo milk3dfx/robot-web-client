@@ -9,7 +9,7 @@ if(isset($_SESSION['userName']))
    <link rel="stylesheet" type="text/css" href="css/index.css">
    <style type="text/css">
    </style>
-   <script type="text/javascript" src="libs/jquery.js"></script>
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
    <script>
    $(document).ready(function () {
 		$("#submit_button").click(function(){
