@@ -6,3 +6,6 @@ Author: Sergey Zolotykh (milk3dfx)
 
 Robot client allow view, create, edit and run scripts located on robot
 through web interface.
+
+* Default user “admin”, password “123”. To change default user or add
+  new edit “config/users.php”
