@@ -7,27 +7,9 @@ if(isset($_SESSION['userName']))
 <html>
 <head>
    <link rel="stylesheet" type="text/css" href="css/index.css">
-   <style type="text/css">
-   </style>
+   <style type="text/css"></style>
    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-   <script>
-   $(document).ready(function () {
-		$("#submit_button").click(function(){
-			$.get("requests/login.php",
-			{
-				userName: $("#login_input").val(),
-				pass: $("#pass_input").val()
-			},
-			function(data){
-				if(data=="Succeed"){
-					window.location.replace("robot.php");
-				}else{
-					alert(data);
-				}
-			});
-		});
-	});
-   </script>
+   <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 	<div id="main_area">
